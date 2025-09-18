@@ -1,0 +1,15 @@
+{
+  "name": "matrix-build-ci",
+  "version": "1.0.0",
+  "description": "Node.js project with multi-runtime testing and conditional build (assignment)",
+  "main": "src/math.js",
+  "scripts": {
+    "test": "jest --json --outputFile=test-results/jest-results.json",
+    "build": "mkdir -p dist && echo '✅ Build Completed Successfully' > dist/build-info.txt"
+  },
+  "author": "Zafer",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
