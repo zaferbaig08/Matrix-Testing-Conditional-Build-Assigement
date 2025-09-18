@@ -8,28 +8,38 @@ This project demonstrates:
 - Manual approval required before build artifact publishing
 
 ## 📂 Project Structure
-```
-src/        → Source code
-test/       → Unit tests (Jest)
-.github/    → GitHub Actions workflow (CI/CD)
-dist/       → Build output (generated after build)
-```
+src/ → Source code
+test/ → Unit tests (Jest)
+.github/ → GitHub Actions workflow (CI/CD)
+dist/ → Build output (generated after build)
+images/ → CI/CD workflow screenshots
+
+markdown
+Copy code
 
 ## 🚀 Usage
 1. Install dependencies:
    ```bash
    npm install
-   ```
-2. Run tests:
-   ```bash
-   npm test
-   ```
-3. Build project:
-   ```bash
-   npm run build
-   ```
+Run tests:
 
-## ✅ GitHub Actions Workflow
-- **Tests** run on Node 16, 18, 20
-- **Build** only runs on `main` or tags starting with `v`
-- Build waits for **manual approval** in GitHub Environments
+bash
+Copy code
+npm test
+Build project:
+
+bash
+Copy code
+npm run build
+✅ GitHub Actions Workflow
+Tests run on Node 16, 18, 20
+
+Build only runs on main or tags starting with v
+
+Build waits for manual approval in GitHub Environments
+
+🖼️ CI/CD Workflow Results
+🔹 Tests Passed (Waiting for Approval)
+
+
+🔹 After Approval (Production Output)
