@@ -39,7 +39,10 @@ Build only runs on main or tags starting with v
 Build waits for manual approval in GitHub Environments
 
 🖼️ CI/CD Workflow Results
-🔹 Tests Passed (Waiting for Approval)
 
+### 🔹 Tests Passed (Waiting for Approval)
+![Tests Passed - Waiting Build Artifact](https://github.com/zaferbaig08/Matrix-Testing-Conditional-Build-Assigement/blob/main/images/test%20pass%20waiting%20build%20artifact.PNG?raw=true)
 
-🔹 After Approval (Production Output)
+### 🔹 After Approval (Production Output)
+![Production Output](https://github.com/zaferbaig08/Matrix-Testing-Conditional-Build-Assigement/blob/main/images/passed%20prodction%20output.PNG?raw=true)
+
